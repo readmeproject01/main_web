@@ -6,13 +6,13 @@ export default function Home() {
       {/* Hero 섹션 */}
       <section className="text-center py-20 border-b">
         <h1 className="text-xl md:text-5xl font-bold mb-4">
-         FORIF
+         컴퓨터구조론
         </h1>
         <p className="text-gray-500 mb-6">
-          FORIF 스터디 요약 페이지
+          컴퓨터구조론 정리 페이지
         </p>
         <button className="bg-black text-white px-6 py-2 rounded hover:bg-gray-800">
-          Project
+          과제
         </button>
       </section>
 
@@ -26,7 +26,7 @@ export default function Home() {
           {/* Week 1 */}
           <Link href="">
             <div className="border rounded-lg p-6 text-center hover:border-black hover:shadow-md transition-all cursor-pointer h-full">
-              <h3 className="font-bold mb-2">week 1</h3>
+              <h3 className="font-bold mb-2">설웅</h3>
               <p className="text-sm text-gray-500">
                 Git/Github
               </p>
@@ -36,7 +36,7 @@ export default function Home() {
           {/* Week 2 */}
           <Link href="/posts/">
             <div className="border rounded-lg p-6 text-center hover:border-black hover:shadow-md transition-all cursor-pointer h-full">
-              <h3 className="font-bold mb-2">week 2</h3>
+              <h3 className="font-bold mb-2">이헌준</h3>
               <p className="text-sm text-gray-500">
                 node.js
               </p>
@@ -46,7 +46,7 @@ export default function Home() {
           {/* Week 3 */}
           <Link href="">
             <div className="border rounded-lg p-6 text-center hover:border-black hover:shadow-md transition-all cursor-pointer h-full">
-              <h3 className="font-bold mb-2">week 3</h3>
+              <h3 className="font-bold mb-2">coming soon</h3>
               <p className="text-sm text-gray-500">
                 coming soon
               </p>

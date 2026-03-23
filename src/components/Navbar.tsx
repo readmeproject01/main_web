@@ -5,11 +5,11 @@ export default function Navbar() {
     <nav className="border-b px-6 py-4
       grid grid-cols-3 items-center">
       <span className="font-bold text-xl">
-        Navbar
+        교수님
       </span>
       <div className="flex gap-6 justify-center">
-        <Link href="/">메인</Link>
-        <Link href="/posts">목록</Link>
+        <Link href="/">이헌준</Link>
+        <Link href="/posts">설웅</Link>
       </div>
       <div className="flex justify-end">
         <button className="border rounded
