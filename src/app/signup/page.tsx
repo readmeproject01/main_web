@@ -24,10 +24,9 @@ export default function SignupPage() {
         </form>
 
         {/* 로그인 페이지로 돌아가기 */}
-<div className={styles.backToLogin}>
+        <div className={styles.backToLogin}>
           <p>
-            {/* href="/login" 을 통해 다시 로그인 페이지로 이동합니다 */}
-            이미 계정이 있으신가요? <Link href="/login" className={styles.loginLink}>Login</Link>
+            이미 계정이 있으신가요? <Link href="/" className={styles.loginLink}>Login</Link>
           </p>
         </div>
       </div>
