@@ -1,44 +1,46 @@
+// src/app/Holmz-study/page.tsx
+
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Home() {
+export default function HolmzStudy() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#D9D9D9]">
       <div className="bg-white rounded-3xl shadow-xl p-16 w-full max-w-4xl mx-8">
         <h1 className="text-center text-2xl font-semibold mb-14 tracking-wide">
-          For Your Study
+        Holmz
         </h1>
 
         <div className="flex gap-10 justify-center">
-          {/* 카드 1 - Holmz */}
-          <Link href="/holmz-study">
+          {/* 2층 */}
+          <Link href="/Holmz-study/2f">
             <div className="flex flex-col items-center gap-3 cursor-pointer group">
               <div className="w-72 h-52 rounded-2xl overflow-hidden group-hover:shadow-lg transition-shadow duration-200">
                 <Image
-                  src="/study-Holmz.jpg"
-                  alt="Holmz"
-                  width={224}
-                  height={160}
+                  src="/holmz-2f.jpg"
+                  alt="Holmz 2층"
+                  width={288}
+                  height={208}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-sm text-gray-600">Holmz</span>
+              <span className="text-sm text-gray-600">2층</span>
             </div>
           </Link>
 
-          {/* 카드 2 - Lib */}
-          <Link href="/lib-study">
-            <div className="flex flex-col items-center gap-2 cursor-pointer group">
+          {/* 4층 */}
+          <Link href="/Holmz-study/4f">
+            <div className="flex flex-col items-center gap-3 cursor-pointer group">
               <div className="w-72 h-52 rounded-2xl overflow-hidden group-hover:shadow-lg transition-shadow duration-200">
                 <Image
-                  src="/study-lib.jpg"
-                  alt="lib"
-                  width={224}
-                  height={160}
+                  src="/holmz-4f.jpg"
+                  alt="Holmz 4층"
+                  width={288}
+                  height={208}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-sm text-gray-600">Paiknam Academic Information Center & Library</span>
+              <span className="text-sm text-gray-600">4층</span>
             </div>
           </Link>
         </div>
