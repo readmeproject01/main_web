@@ -1,0 +1,92 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #dcdcdc; /* 로그인 페이지와 동일한 배경색 */
+}
+
+.logoCircle {
+  background-color: #ffffff;
+  width: 250px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logoCircle p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.2;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+.header h2 {
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+/* 새로 추가된 제출 버튼 디자인 */
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #c98282; /* 시안의 핑크/팥죽색 */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.submitBtn:hover {
+  opacity: 0.8; /* 마우스 올렸을 때 살짝 투명해지는 효과 */
+}
+
+.backToLogin {
+  margin-top: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loginLink {
+  color: #c98282;
+  text-decoration: none;
+  margin-left: 5px;
+}

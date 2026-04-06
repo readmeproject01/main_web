@@ -1,0 +1,98 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 세로 기준 중앙 정렬 */
+  width: 100%;
+  min-height: 100vh; /* 화면의 100% 높이를 차지하여 흰 여백 제거 */
+  background-color: #dcdcdc; /* 전체 배경을 회색으로 적용 */
+}
+
+.logoCircle {
+  background-color: #ffffff;
+  width: 250px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logoCircle p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.2;
+}
+
+.loginHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 350px;
+}
+
+.loginHeader h2 {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.googleBtn {
+  background-color: #c98282;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  background-color: #ffffff; /* 하얀색 입력창 배경 명시 */
+}
+
+.forgotPassword {
+  text-align: right;
+}
+
+.forgotPassword a {
+  color: #c98282;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.divider {
+  width: 350px; /* 폼 너비에 맞춰서 선 길이 조정 */
+  border: none;
+  border-top: 1px solid #7a7a7a;
+  margin: 30px 0 15px 0;
+}
+
+.signupSection {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.signupLink {
+  color: #c98282;
+  text-decoration: none;
+  margin-left: 5px;
+}
