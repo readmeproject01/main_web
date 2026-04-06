@@ -1,21 +1,20 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
+  const pathname = usePathname();
+
+  // '/login' 또는 '/signup' 경로일 때 Navbar를 안 보이게 합니다.
+  if (pathname === '/login' || pathname === '/signup') return null;
+
   return (
-    <nav className="border-b px-6 py-4
-      grid grid-cols-3 items-center">
-      <span className="font-bold text-xl">
-        교수님
-      </span>
+    <nav className="border-b px-6 py-4 grid grid-cols-3 items-center">
+      <span className="font-bold text-xl"></span>
       <div className="flex gap-6 justify-center">
-        <Link href="/">이헌준</Link>
-        <Link href="/posts">설웅</Link>
-      </div>
-      <div className="flex justify-end">
-        <button className="border rounded
-          px-4 py-1 text-sm hover:bg-gray-100">
-          로그인
-        </button>
+        <Link href="/login">
+            <button>| Hanyang University |</button> 
+        </Link>
       </div>
     </nav>
   );
