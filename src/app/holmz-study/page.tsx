@@ -17,7 +17,7 @@ export default function HolmzStudy() {
             <div className="flex flex-col items-center gap-3 cursor-pointer group">
               <div className="w-72 h-52 rounded-2xl overflow-hidden group-hover:shadow-lg transition-shadow duration-200">
                 <Image
-                  src="/holmz-2f.jpg"
+                  src="/holmz-2f.png"
                   alt="Holmz 2층"
                   width={288}
                   height={208}
@@ -33,8 +33,8 @@ export default function HolmzStudy() {
             <div className="flex flex-col items-center gap-3 cursor-pointer group">
               <div className="w-72 h-52 rounded-2xl overflow-hidden group-hover:shadow-lg transition-shadow duration-200">
                 <Image
-                  src="/holmz-4f.jpg"
-                  alt="Holmz 4층"
+                  src="/holmz-4f.png"
+                  alt="holmz 4층"
                   width={288}
                   height={208}
                   className="w-full h-full object-cover"
