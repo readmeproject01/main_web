@@ -13,7 +13,10 @@ export default function LoginPage() {
       <div className={styles.loginSection}>
         <div className={styles.loginHeader}>
           <h2>Login</h2>
-          <button className={styles.googleBtn}>G</button>
+          {/* G 버튼을 Link로 변경하여 /holmz|lib 경로로 연결 */}
+           <Link href="/main" className={styles.googleBtn}>
+            G
+          </Link>
         </div>
 
         <form className={styles.loginForm}>
