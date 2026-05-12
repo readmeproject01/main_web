@@ -13,7 +13,7 @@ export default function HolmzStudy() {
 
         <div className="flex gap-10 justify-center">
           {/* 2층 */}
-          <Link href="/Holmz-study/2f">
+          <Link href="/holmz-study/2f">
             <div className="flex flex-col items-center gap-3 cursor-pointer group">
               <div className="w-72 h-52 rounded-2xl overflow-hidden group-hover:shadow-lg transition-shadow duration-200">
                 <Image
@@ -29,7 +29,7 @@ export default function HolmzStudy() {
           </Link>
 
           {/* 4층 */}
-          <Link href="/Holmz-study/4f">
+          <Link href="/holmz-study/4f">
             <div className="flex flex-col items-center gap-3 cursor-pointer group">
               <div className="w-72 h-52 rounded-2xl overflow-hidden group-hover:shadow-lg transition-shadow duration-200">
                 <Image
